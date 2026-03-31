@@ -1,0 +1,142 @@
+body {
+  background-image: url(/images/a6_background.jpeg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  padding: 0px auto;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #253D5B;
+}
+
+.container {
+  max-width: 960px;
+  margin: 40px;
+  border: solid 4px #67697C;
+  background-color:#EEF1EF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header_style {
+  font-family: "Bebas Neue";
+  font-size: 72px;
+  background-color: black;
+  color: #EEF1EF; 
+  height: 80px;
+  width: 100%;
+  max-width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.footer_style {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  color: #EEF1EF;
+  margin: auto;
+  box-sizing: border-box;
+  clear: both;
+}
+
+.columnOne {
+  padding: 20px;
+}
+
+.columnTwo {
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+padding: 20px
+}
+
+.columnThree {
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+padding: 20px
+}
+
+img {
+  max-width: 150px;
+  vertical-align: bottom;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  font-size: initial;
+  color: initial;
+}
+
+.floatLeft {
+float: left;
+border: 3px solid #EE964B;
+margin-right: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.floatRight {
+float: right;
+border: 3px solid #EE964B;
+margin-left: 5px;
+margin-bottom: 5px;
+margin-right: 10px;
+}
+
+.nav_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin: auto 0;
+  padding-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color:#EE964B;
+}
