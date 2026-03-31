@@ -140,3 +140,7 @@ a{
 a:hover {
   color:#EE964B;
 }
+
+header, footer, nav, article {
+display: block;
+}
