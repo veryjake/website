@@ -376,6 +376,51 @@ h2 {
   margin-top:8px;
 }
 
+.contact-section {
+  display:grid;
+  grid-template-columns:1.08fr 1fr;
+  gap:60px;
+  padding:80px 5%;
+  border-top:1px solid var(--ink);
+  max-width:1600px;
+  margin:auto;
+}
+
+.contact-section > * {
+  min-width:0;
+}
+
+.contact-copy > p:not(.eyebrow), .contact-details p {
+  max-width:370px;
+  font-size:14px;
+  line-height:1.8;
+}
+
+.contact-details {
+  align-self:center;
+  padding:32px;
+  border:1px solid var(--ink);
+  box-shadow:6px 6px 0 var(--orange);
+}
+
+.contact-details a {
+  text-decoration:underline;
+  text-underline-offset:4px;
+  overflow-wrap:anywhere;
+}
+
+.contact-details a:hover {
+  color:#b73217;
+}
+
+.contact-details h3 {
+  font-family:var(--display-font);
+  font-size:32px;
+  font-weight:500;
+  text-transform:uppercase;
+  margin:0 0 16px;
+}
+
 .hangout {
   text-align:center;
   background:var(--orange);
@@ -464,7 +509,7 @@ footer>a:last-child:hover {
     font-size:11px;
   }
   .nav-button {
-    display:none;
+    padding:10px 12px;
   }
   .hero {
     grid-template-columns:1fr;
@@ -538,6 +583,14 @@ footer>a:last-child:hover {
   }
   .about-copy h2 {
     font-size:44px;
+  }
+  .contact-section {
+    grid-template-columns:1fr;
+    gap:24px;
+    padding:48px 6%;
+  }
+  .contact-details {
+    padding:25px;
   }
   .hangout {
     padding:45px 6% 50px;
